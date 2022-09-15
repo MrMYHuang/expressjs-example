@@ -4,4 +4,4 @@ WORKDIR /data
 COPY . .
 EXPOSE 3000
 RUN npm i
-CMD [ "node index.js" ]
+CMD [ "node", "index.js" ]
